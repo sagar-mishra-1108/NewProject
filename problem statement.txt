@@ -1,0 +1,17 @@
+Tax Slabs:
+Slab1 = 0-100 = no tax
+Slab2 = 100-200 = 10% tax
+Slab3 = 200-400 = 20% tax
+Slab4 = 400 above = 25% tax
+Example 1: If income = 500
+0-100 = 0
+100-200 = 10% tax = 10
+200-400 = 20% tax = 40
+400+ = 25% tax = 25
+Total Tax = 75
+Example 2: If income = 350
+0-100 = 0
+100-200 = 10% tax = 10
+200-400 = 20% tax = 30
+400+ = 25% tax = 0
+Total Tax = 40
